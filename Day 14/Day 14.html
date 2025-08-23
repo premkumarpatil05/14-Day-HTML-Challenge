@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="My HTML Portfolio Project">
+  <meta name="keywords" content="HTML, Portfolio, Web Development">
+  <meta name="author" content="Premkumar">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My HTML Portfolio</title>
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <h1>Welcome to My Portfolio</h1>
+    <nav>
+      <a href="#about">About</a> | 
+      <a href="#skills">Skills</a> | 
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- About Section -->
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Hi! I am a passionate web developer learning HTML basics.</p>
+      <img src="myphoto.jpg" alt="My Photo" width="200">
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+      <h2>My Skills</h2>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+      </ul>
+
+      <h3>Project Experience</h3>
+      <table border="1">
+        <tr>
+          <th>Project</th>
+          <th>Technology</th>
+          <th>Year</th>
+        </tr>
+        <tr>
+          <td>Portfolio Website</td>
+          <td>HTML & CSS</td>
+          <td>2025</td>
+        </tr>
+      </table>
+    </section>
+
+    <!-- Multimedia -->
+    <section>
+      <h2>My Intro Video</h2>
+      <video controls width="320">
+        <source src="intro.mp4" type="video/mp4">
+      </video>
+    </section>
+
+    <!-- Contact Form -->
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form action="submit.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="username" required>
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="useremail" required>
+        <br><br>
+        <textarea name="message" placeholder="Your message"></textarea>
+        <br><br>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>© 2025 My Portfolio | Designed with HTML ❤️</p>
+  </footer>
+
+</body>
+</html>
